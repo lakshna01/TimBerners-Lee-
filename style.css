@@ -74,28 +74,27 @@ p {
 }
 
 .menu {
-    list-style: none;
-    font-family: sans-serif;
-    position: absolute;
-    top: 10px;
-    right: 30px;
+    position: fixed;
+    background: White;
+    width: 100%;
+    margin-top: 0px;
+    top: 0px;
     z-index: 10;
-    cursor: pointer;
 }
 
 .links {
-    float: left;
-    color: #fff;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 9px;
-    padding-right: 9px;
-    font-family: fantasy;
+    display: inline;
+    padding-left: 33px;
+    padding-right: 25px;
     font-size: 20px;
+    font-family: fantasy;
 }
+
 
 .links:hover {
     background-color: dodgerblue;
+    font-size: 25px;
+    text-decoration: underline;
 }
 
 a {
@@ -103,9 +102,29 @@ a {
 }
 
 .article:hover {
-color: fuchsia;
+    color: fuchsia;
 }
 
 html {
     scroll-behavior: smooth;
+}
+
+#writings a {
+    text-shadow: none !important;
+    text-decoration: underline important;
+    color: blue important;
+}
+
+#contact {
+    background: firebrick;
+}
+
+#contact_1 a {
+    color: white;
+    text-shadow: none;
+}
+
+.contact_1 h3 {
+    display: inline;
+
 }
